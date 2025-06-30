@@ -63,7 +63,7 @@ public class Buoi36Application {
 				}
 			} catch (IOException e) {
 				System.err.println("❌ Lỗi khi đóng file: " + e.getMessage());
-			}
-			scanner.close();
+			}scanner.close();
 		}
-	}}
+	}
+}
